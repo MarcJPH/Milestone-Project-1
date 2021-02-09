@@ -1,45 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# User Centric Front End Development Project
 
-Welcome USER_NAME,
+#### The project is to deliver a new and engaging front end site for “Gym Name” that allows current and potential members to view details of the gym facilities, what the gym can offer, not only their physical health but their mental health also.
+#### The site will encompass all that is on offer for existing members and why they should continue with their membership but also attract and encourage non members who are visiting the site to sign up. This will be done via providing clear information on what members can use at the gym through text and visuals but also from the benefits of an active lifestyle can promote with motivational content.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### **User Experiance**
 
-## Gitpod Reminders
+The website is for Gym TBC, a relatively new gym who is a small independently run business in Cowdenbeath, Fife who want to ensure they can retain current members in a very competitive industry but to also attract new members. The site that has been created for them will help achieve their goals by being visually appealing, using emotive pictures and icons but will be straight forward to use and intuitive. It will be consistent across the different pages and be simple in design to ensure users can navigate around the site easily. The site will allow visitors to immediately understand what is on offer and how they can join.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### User Stories
 
-`python3 -m http.server`
+A number of User Stories were documented to help achieve the user experience that has been created.
 
-A blue button should appear to click: *Make Public*,
+Gym Owner:
 
-Another blue button should appear to click: *Open Browser*.
+1. As the gym owner, I want for visitors to have all the information they are looking for and to make the gym experience they would have at my gym appealing, so that they sign up to join as a member to increase my turnover.
+2. As the gym owner, I want to make signing up to become a member as simple as possible, so that users are encouraged to sign up straight away.
+3. As the gym owner, I want current members who visit the site to see the benefits of a physical lifestyle and a valued customer, so they retain their membership and continue visiting the gym.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Gym Member:
 
-A blue button should appear to click: *Make Public*,
+1. As a gym member, I want to know what type of classes are available and when, so I can join and enjoy a varied exercise regime.
+2. As a gym member, I want to know what benefits there are of being a member, so I know that I am valued and should continue my membership.
+3. As a gym member, I want to know what personal trainer options there are, so I can decide if that is an option I want to pursue.
 
-Another blue button should appear to click: *Open Browser*.
+Prospective Member:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. As someone interested in becoming a member, I want to know how much memberships costs, so I can decide if I can afford to join.
+2. As someone interested in becoming a member, I want to know what equipment the gym has for exercise, so I can decide if the equipment available suits my needs.
+3. As someone interested in becoming a member, I want to know what instructor led classes are available, so I can decide if the classes would be of interest if I joined.
+4. As someone interested in becoming a member, I want to know what facilities are on site, so I can understand if I can work going to the gym into my current life and commitments.
 
-## Updates Since The Instructional Video
+Add wireframes!
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Existing Features:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The Join Now button, located at the top and middle of the Index Page (all pages?) allows users to sign up to be a member, by filling out a joiners form.
+- A menu option in the top right of the screen allows users to navigate through the site to view the different information located within the site.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Features Left to implement:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- How many users are in the gym currently, which allows users to know how busy the gym is so they can decide if they want to go now or potentially later.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Technologies Used
