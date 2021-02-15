@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap: 100,200,300,400,500,600,700|Roboto: 100, 200, 300, 400, 500, 600, 700');
+
+header {
+    margin: 0
+}
+
+/*----------------Colours----------*/
+
+/*----------------Paddings/Margins/Text----------*/
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+.uppercase {
+text-transform: uppercase;
+}
+
+
+/*----------------Heading----------*/
+
+
+.logo {
+    font-family: "Lexend Maga", sans-serif;
+    color: #00DD00;
+    padding-top: 15px;
+    padding-left: 90px;
+}
+
+
+/*----------------Images----------*/
+
+.hero-image {
+    background: url("../images/GymHero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+

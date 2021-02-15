@@ -46,3 +46,8 @@ Features Left to implement:
 
 
 ### Technologies Used
+
+
+### Credits
+
+Hero Image from Active.com - 10 secrets of people who actually love to work out.
