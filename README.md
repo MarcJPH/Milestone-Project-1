@@ -51,3 +51,5 @@ Features Left to implement:
 ### Credits
 
 Hero Image from Active.com - 10 secrets of people who actually love to work out.
+Navbar menu to the right - https://codepen.io/craigvantonder/pen/MJwLWb
+
