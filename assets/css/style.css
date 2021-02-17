@@ -6,12 +6,23 @@ header {
 
 /*----------------Colours----------*/
 
-/*----------------Paddings/Margins/Text----------*/
-
-.justify-content-end {
-    padding-right: 80px;
+body {
+    font-family: 'Lexend Maga', sans-serif;
 }
 
+
+/*----------------Paddings/Margins/Text----------*/
+
+.callouttext {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.join {
+    font-weight: bold;
+}
 
   
 
@@ -43,7 +54,32 @@ text-transform: uppercase;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
+
+
+/*----------------Footer----------*/
+
+footer {
+    background-color: #525252;
+    color: white;
+    margin: 0;
+}
+
+
+.social-networks {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.social-networks li {
+    display: inline-block;
+}
+
+.social-networks li a i {
+    font-size: 30px;
+    color: white;
+    padding: 10px 0;
+}
