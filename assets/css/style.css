@@ -69,16 +69,7 @@ footer {
 }
 
 
-.social-networks {
-    text-align: right;
-    padding-right: 5%;
-}
-
-.social-networks li {
-    display: inline-block;
-}
-
-.social-networks li a i {
+.social-networks li a i{
     font-size: 30px;
     color: white;
     padding: 10px 0;
