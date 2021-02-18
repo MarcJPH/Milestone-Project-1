@@ -24,8 +24,15 @@ body {
     font-weight: bold;
 }
 
-  
 
+.intro {
+    padding: 75px;
+}
+
+
+.centre {
+    margin: center;
+}
 
 h1,h2,h3,h4 {
     margin: 0;
@@ -46,6 +53,18 @@ text-transform: uppercase;
 }
 
 
+/*----------------Circles----------*/
+
+.circle-container {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
 
 /*----------------Images----------*/
 
@@ -58,6 +77,31 @@ text-transform: uppercase;
     width: 100%;
 }
 
+
+.our-gym{
+    background: url("../images/ourgym.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    border-radius: 50%;
+}
+
+.feel-great{
+    background: url("../images/feelgreat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    border-radius: 50%;
+}
+
+
+.positive {
+    background: url("../images/positive.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    border-radius: 50%;
+}
 
 
 /*----------------Footer----------*/
