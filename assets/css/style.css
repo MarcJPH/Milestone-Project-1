@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap: 100,200,300,400,500,600,700|Roboto: 100, 200, 300, 400, 500, 600, 700');
 
-header {
-    margin: 0
-}
 
 /*----------------Colours----------*/
 
@@ -12,6 +9,16 @@ body {
 
 
 /*----------------Paddings/Margins/Text----------*/
+
+.justify-content-end {
+    padding-right: 40px;
+}
+
+.active {
+    padding: 10px;
+    color: white;
+}
+
 
 .callouttext {
     color: white;
@@ -26,23 +33,22 @@ body {
 
 
 .intro {
-    padding: 75px;
+    padding-top: 30px;
+}
+
+.main h2 {
+    text-transform: uppercase;  
+    text-align: center;
+    font-size: 26px; 
+}
+
+.gym-great {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
-.centre {
-    margin: center;
-}
-
-h1,h2,h3,h4 {
-    margin: 0;
-}
-.uppercase {
-text-transform: uppercase;
-}
-
-
-/*----------------Heading----------*/
+/*----------------Navbar----------*/
 
 
 .logo {
@@ -62,14 +68,19 @@ text-transform: uppercase;
     border-color:#cccccc;
     border-width: 1px;
     border-radius: 50%;
-    margin:0 auto;
+    margin: 0 auto;
+}
 
+.circles {
+    padding-top: 30px;
+
+    
 }
 
 /*----------------Images----------*/
 
 .hero-image {
-    background: url("../images/GymHero.jpg");
+    background: url("../images/gymhero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +91,7 @@ text-transform: uppercase;
 
 .our-gym{
     background: url("../images/ourgym.jpg");
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height:100%;
     border-radius: 50%;
@@ -88,7 +99,7 @@ text-transform: uppercase;
 
 .feel-great{
     background: url("../images/feelgreat.jpg");
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height:100%;
     border-radius: 50%;
@@ -97,7 +108,7 @@ text-transform: uppercase;
 
 .positive {
     background: url("../images/positive.jpg");
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height:100%;
     border-radius: 50%;
@@ -112,9 +123,13 @@ footer {
     margin: 0;
 }
 
-
-.social-networks li a i{
-    font-size: 30px;
-    color: white;
-    padding: 10px 0;
+.social-networks {
+    padding-top: 10px;
 }
+
+.sociallink {
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+}
+
