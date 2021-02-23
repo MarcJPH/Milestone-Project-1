@@ -69,6 +69,11 @@ body {
     font-weight: bold;
 }
 
+.signin {
+    color: white;
+    font-weight: bold;
+}
+
 
 
 /*----------------Circles----------*/
@@ -140,3 +145,10 @@ footer {
     padding: 10px;
 }
 
+
+/*----------------Modal----------*/
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+}
