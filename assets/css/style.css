@@ -32,6 +32,11 @@ body {
     padding-top: 30px;
 }
 
+.main {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .main h2 {
     text-transform: uppercase;  
     text-align: center;
@@ -71,12 +76,13 @@ body {
 
 .rounded-circle {
     width: 400px;
-    height: 400px; 
+    height: 400px;
 }
 
 .circles {
     padding-top: 30px;  
 }
+
 
 /*----------------Images----------*/
 
