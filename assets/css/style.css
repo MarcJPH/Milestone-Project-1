@@ -10,6 +10,11 @@ body {
 
 /*----------------Paddings/Margins/Text----------*/
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .justify-content-end {
     padding-right: 40px;
 }
@@ -52,6 +57,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 
 /*----------------Navbar----------*/
