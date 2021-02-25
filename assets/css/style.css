@@ -58,14 +58,10 @@ body {
     padding-right: 8px;  
 }
 
-.quotes h2 {
-   text-transform: uppercase;  
-    text-align: center;
-    font-size: 26px; 
-}
 
 .quotes p {
     font-style: italic;
+    font-size: 14px;
 }
 
 .gym-great {
@@ -88,6 +84,19 @@ body {
 }
 
 
+.equipment li {
+    display: inline;
+    font-size: 25px;
+}
+
+.equipment  {
+    padding: 0%;
+    margin: 0 auto;   
+}
+
+.equipment i {
+    padding: 0%
+}
 
 /*----------------Navbar----------*/
 
@@ -104,9 +113,14 @@ body {
     font-weight: bold;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
 .signin {
     color: white;
 }
+
 
 
 
@@ -134,6 +148,8 @@ body {
     width: 100%;
 }
 
+
+
 /*----------------Images----------*/
 
 .hero-image {
@@ -149,12 +165,14 @@ body {
 
 h6 {
     text-align: center;
+    font-weight: bold;
 }
 
 #map-wrapper {
 height: 200px;
 margin-bottom: 30px;
 }
+
 #map {
 border: none;
 }
@@ -163,7 +181,7 @@ border: none;
 /*----------------Icons----------*/
 
 .iconssection{
-    height: 100px;
+    height: 300px;
 }
 
 .icons {
@@ -184,10 +202,11 @@ border: none;
 /*----------------Footer----------*/
 
 footer {
-    background-color: #525252;
+    background-color: #343a40;
     color: white;
     margin: 0;
 }
+
 
 .social-networks {
     padding-top: 10px;
