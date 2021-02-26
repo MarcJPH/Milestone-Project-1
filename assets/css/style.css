@@ -5,6 +5,38 @@
 
 body {
     font-family: 'Lexend Maga', sans-serif;
+
+}
+
+
+
+/*----------------Buttons----------*/
+
+.btn-set {
+    font-weight: bold;
+    border-radius: 23px;
+}
+
+.btn-green {
+    background-color: #00DD00;
+    border-color: #00DD00;
+    color: white;
+}
+
+.btn-green:hover,
+
+.btn-green:active,
+
+.btn-green:focus,
+
+.btn-green:active:focus {
+
+background-color: #df2984;
+
+border-color: #df2984;
+
+color: white;
+
 }
 
 
@@ -26,6 +58,17 @@ body {
     font-weight: bold;
     text-align: center;
     padding-top: 75px;
+}
+
+.calloutclasses {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.joinclass {
+    padding-top: 20px;
 }
 
 .join {
@@ -129,8 +172,8 @@ body {
 
 
 .rounded-circle {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -138,6 +181,7 @@ body {
 
 .circles {
     padding-top: 30px;
+    background-color: #433961;
 }
 
 .pics {
@@ -207,6 +251,9 @@ footer {
     margin: 0;
 }
 
+footer h4 {
+    font-size: 25px;
+}
 
 .social-networks {
     padding-top: 10px;
