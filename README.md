@@ -53,3 +53,7 @@ Features Left to implement:
 Hero Image from Active.com - 10 secrets of people who actually love to work out.
 Navbar menu to the right - https://codepen.io/craigvantonder/pen/MJwLWb
 
+Customimsing border on tables
+https://stackoverflow.com/questions/45746103/boostrap-css-change-table-border-colors
+
+

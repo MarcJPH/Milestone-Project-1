@@ -85,6 +85,14 @@ body {
 }
 
 
+.thegym {
+    margin: 0 auto
+}
+
+.thegym p {
+    text-align: center;
+}
+
 .main {
     padding-left: 8px;
     padding-right: 8px;
@@ -94,6 +102,14 @@ body {
     text-transform: uppercase;  
     text-align: center;
     font-size: 26px; 
+}
+
+.ethos {
+   margin: 0 auto 
+}
+
+.ethos p {
+    text-align: center;
 }
 
 .quotes {
@@ -122,8 +138,25 @@ body {
     padding-bottom: 30px;
 }
 
+.userquotes {
+    margin: 0 auto
+}
+
+.userquotes p {
+     text-align: center;
+     font-style: italic;
+ }
+
 .quotessection {
     padding-top: 30px;
+}
+
+.quotes {
+    margin: 0 auto;
+}
+
+.quotes p {
+    text-align: center;
 }
 
 
@@ -205,6 +238,25 @@ body {
     width: 100%;
 }
 
+
+
+/*----------------Tables----------*/
+
+.table-bordered {
+    border: 2px solid #343a40;
+}
+
+
+.table-bordered td, .table-bordered th{
+    border: 2px solid #343a40;
+}
+
+.table {
+    text-align: center;
+}
+
+
+
 /*----------------Map----------*/
 
 h6 {
@@ -224,23 +276,14 @@ border: none;
 
 /*----------------Icons----------*/
 
-.iconssection{
-    height: 300px;
+
+.iconitem {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
-.icons {
-    padding: 0%;
-    margin: 0 auto;
-}
 
-.icons li{
-    display: inline;
-}
-
-.icons i {
-    font-size: 38px;
-    padding: 10%;
-}
 
 
 /*----------------Footer----------*/
