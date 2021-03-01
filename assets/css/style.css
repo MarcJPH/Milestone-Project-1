@@ -67,6 +67,13 @@ body {
     padding-top: 75px;
 }
 
+.calloutoffer {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 75px;
+}
+
 .joinclass {
     padding-top: 20px;
 }
@@ -185,12 +192,37 @@ body {
     text-decoration: none;
 }
 
+
+.logo h3:hover,
+
+.logo h3:active,
+
+.logo h3:focus,
+
+.logo h3:active:focus {
+    color: white;
+}
+
+.navbar .logo:hover {
+    text-decoration: none;
+}
+
 .navbar .navbar-nav a {
     font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+
+.navbar-dark .navbar-nav .nav-link:active,
+
+.navbar-dark .navbar-nav .nav-link:focus,
+
+.navbar-dark .navbar-nav .nav-link:active:focus {
+    color: #00DD00;
 }
 
 .signin {
@@ -210,6 +242,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 
 .circles {
@@ -298,6 +331,22 @@ footer h4 {
     font-size: 25px;
 }
 
+#footer-info {
+    padding: 20px;
+}
+
+.times {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
 .social-networks {
     padding-top: 10px;
 }
@@ -308,6 +357,16 @@ footer h4 {
     padding: 10px;
 }
 
+.sociallink:hover,
+
+.sociallink:active,
+
+.sociallink:focus,
+
+.sociallink:active:focus {
+    color: #00DD00;
+}
+
 
 /*----------------Modal----------*/
 
@@ -316,7 +375,19 @@ footer h4 {
     font-weight: bold;
 }
 
+.submit {
+    background-color: #00DD00;
+    border-color: #00DD00;
+}
 
 
 
+/*----------------Media Query----------*/
 
+@media(max-width: 540px) {
+    .callouttext,
+    .calloutclasses,
+    .calloutoffer {
+        font-size: 20px;
+    }
+}

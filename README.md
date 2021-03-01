@@ -96,6 +96,7 @@ Most of the photos displayed on the project were sourced from the website https:
 #### Code
 
  - Code for customising the borders within a Bootstrap table was taken from Stackoverflow - https://stackoverflow.com/questions/45746103/boostrap-css-change-table-border-colors
+ 
 
 ##### Disclaimer
 The content of this Website is for educational purposes only.
