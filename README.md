@@ -3,6 +3,8 @@
 #### The project is to deliver a new and engaging front end site for the 3 Circles Gym that allows current and potential members to view details of the gym facilities, what the gym can offer to them and the positives of why they should join as a memeber.
 #### The site will encompass all that is on offer for existing members and why they should continue with their membership but also attract and encourage non members who are visiting the site to sign up. This will be done via providing clear information on what members can use at the gym through text and visuals but also from the benefits of an active lifestyle can promote with motivational content. The site will be simple to navigate but provide the opportunity on each page to sign up to encourage the users to do so.
 
+![Image of Mock Up](mockup.png)
+
 ### **User Experience**
 
 The website is for 3 Circles Gym, a relatively new gym who is a small independently run business in Cowdenbeath, Fife who want to ensure they can retain current members in a very competitive industry but to also attract new members. The site that has been created for them will help achieve their goals by being visually appealing, using emotive pictures and icons but will be straight forward to use and intuitive. It will be consistent across the different pages and be simple in design to ensure users can navigate around the site easily. The site will allow visitors to immediately understand what is on offer and how they can join.
@@ -82,6 +84,19 @@ Features Left to implement:
 
 ### Testing
 
+The following testing was performed to test functionality, browser compatibility, responsiveness and that the user stories documented above are fulfilled by the completed site.
+
+#### Functionality
+
+
+
+#### Browser Compatibility
+
+
+#### Responsiveness
+
+
+#### User Stories Test
 
 bug - sign in form not appearing on mobile devices. - Added data-toggle="modal" data-target="#signinmodal" into list item for sign in that is in the collapese menu for mobile devices.
     - student to be added as seperate drop down in join form as different price to NHS/Concessions & Corporate membership to be added to membership table.
