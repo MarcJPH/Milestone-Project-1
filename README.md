@@ -30,6 +30,16 @@ Prospective Member:
 3. As someone interested in becoming a member, I want to know what instructor led classes are available, so I can decide if the classes would be of interest if I joined.
 4. As someone interested in becoming a member, I want to know what facilities are on site, so I can understand if I can work going to the gym into my current life and commitments.
 
+
+#### Wireframes
+
+[Index Page] (https://github.com/MarcJPH/Milestone-Project-1/blob/master/Index.png)
+https://github.com/MarcJPH/Milestone-Project-1/blob/master/classes.png
+https://github.com/MarcJPH/Milestone-Project-1/blob/master/whatweoffer.png
+https://github.com/MarcJPH/Milestone-Project-1/blob/master/signupform.png
+
+
+
 Add wireframes! Add into github and provide link.
 
 #### Features
@@ -37,7 +47,7 @@ Add wireframes! Add into github and provide link.
 Existing Features:
 
 - The Home Page contains a hero image to immediately provides visitors to the site of a visual of the gym. Thetre is also a Call to Action button within the image to give users the ability to sign up as a member.
-- The Join Now button, located twice on each page for desktop users and once for all other devices, allows users to sign up to be a member, by filling out a joiners form.
+- The Join Now button, located twice on each page for desktop users and once for all other devices, allows users to sign up to be a member, by filling out a joiners form that appears on page once the button is selected.
 - A menu option in the top right of the screen allows users to navigate through the site to view the different information located within the site.
 - There are 3 circular pictures within each page that promotes the gym or the gym experience but also links to the name of the gym.
 - A timetable is located on the Classes page to provide users with what classes are available and when. The page also contains testimonials from current members to help give prospective members an idea of the benefits of joining.
@@ -75,6 +85,8 @@ Features Left to implement:
 
 bug - sign in form not appearing on mobile devices. - Added data-toggle="modal" data-target="#signinmodal" into list item for sign in that is in the collapese menu for mobile devices.
     - student to be added as seperate drop down in join form as different price to NHS/Concessions & Corporate membership to be added to membership table.
+    - 3 circles merged
+    - Drop down menu didn't work - missed javascript script...
 
 
 ### Deployment
