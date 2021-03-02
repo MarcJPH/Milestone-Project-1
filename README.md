@@ -73,6 +73,9 @@ Features Left to implement:
 ### Testing
 
 
+bug - sign in form not appearing on mobile devices. - Added data-toggle="modal" data-target="#signinmodal" into list item for sign in that is in the collapese menu for mobile devices.
+    - student to be added as seperate drop down in join form as different price to NHS/Concessions & Corporate membership to be added to membership table.
+
 
 ### Deployment
 
@@ -81,16 +84,19 @@ Features Left to implement:
 #### Media
 
 Most of the photos displayed on the project were sourced from the website https://unsplash.com/ :
- - gymhero.png 
- - ourgym.jpg
- - feelgreat.jpg
- - positive.jpg
+ - gymhero.png Photo taken from https://www.fitnessfirst.com.my/-/media/project/evolution-wellness/fitness-first/south-east-asia/malaysia/classes/fgt-hiit/fgt-hiit_fb-sharing.png
+ - ourgym.jpg Photo by Risen Wang on Unsplash
+ - feelgreat.jpg Photo taken from https://media1.popsugar-assets.com/files/thumbor/5EKQofgcc8xAuFy8ca5KcEECg0A/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/02/06/052/n/1922729/53927cc45c5b78829321d3.24361415_/i/Best-Dance-Workout-Videos.jpg
+ - positive.jpg Photo by bruce mars on Unsplash
  - gymclass1.jpg Photo by Geert Pieters on Unsplash
  - gymclass2.jpg Photo by Dylan Gillis on Unsplash
- - gymclass3.jpg
+ - gymclass3.jpg Photo taken from https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Fitness/580x350/Secrets+of+People+Who+Love+to+Work+Out/Secret+8.jpg
  - motivation.jpg Photo by John Arano on Unsplash
  - motivation2.jpg Photo by Jesper Aggergaard on Unsplash
  - happyexercise.jpg Photo by Wavebreakmedia Ltd on Getty Images
+ - equipment.jpg Photo by Danielle Cerullo on Unsplash
+ - personaltrainer.jpg Photo by Jonathan Borba on Unsplash
+ - lockers.jpg Photo by Jan Laugesen on Unsplash
 
 
 #### Code

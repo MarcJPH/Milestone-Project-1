@@ -28,7 +28,7 @@
                 <li class="nav-item active"><a class="nav-link" aria-current="3 Circles Gym Classes Page"
                         href="classes.html">Classes</a></li>
                 <li class="nav-item"><a class="nav-link" href="whatweoffer.html">What We Offer</a></li>
-                <li class="nav-item d-block d-sm-none"><a class="nav-link" href="join.html">Sign In</a></li>
+                <li class="nav-item d-block d-sm-none"><a class="nav-link" href="join.html" data-toggle="modal" data-target="#signinmodal">Sign In</a></li>
             </ul>
             <div class="d-none d-md-block signin">
                 <a data-toggle="modal" data-target="#signinmodal">Sign In</a>
@@ -102,7 +102,10 @@
                             </tr>
                         </tbody>
                     </table>
-
+                        <h6>Classes are booked via our 3 Circles Gym app. Download the app here -</h6>
+                            <p><a href="https://www.apple.com/uk/ios/app-store/" target="_blank" class="apps">Apple App Store</a></p>
+                            <p><a href="https://play.google.com/store/apps?hl=en_GB&gl=US" target="_blank" class="apps">Google Play</a></p>
+                        
                 </div>
 
             </div>
@@ -110,20 +113,20 @@
     </section>
 
     <section class="container-fluid">
-    <div class="circles">
+    <div class="circles d-none d-sm-block">
         <div class="row media">
             <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                <img src="assets/images/gymclass1.jpg" class="rounded-circle" height="100" width="100">
+                <img src="assets/images/gymclass1.jpg" class="rounded-circle" height="100" width="100" alt="Photo of an exercise class">
             </div>
 
 
             <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                <img src="assets/images/gymclass2.jpg" class="rounded-circle" height="100" width="100">
+                <img src="assets/images/gymclass2.jpg" class="rounded-circle" height="100" width="100" alt="Photo of a yoga class">
             </div>
 
 
             <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                <img src="assets/images/gymclass3.jpg" class="rounded-circle" height="100" width="100">
+                <img src="assets/images/gymclass3.jpg" class="rounded-circle" height="100" width="100" alt="Photo of a HIIT class">
             </div>
         </div>
 
@@ -141,20 +144,20 @@
         <div class="userquotes">
             <div class="row">
 
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 main">
 
                     <p>The 3 Circles Gym has all the equipment and facilities I need to allow me to keep active and
                         healthy. They provide encouragement and made me feel very welcomed when I joined. Having the gym
                         open early morning and late in the evening allows me to work out around my work and family
                         commitments - <strong>Brodie / 27</strong></p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 main">
 
                     <p>The classes at the gym are my favourite part. There are so many different classes to choose from
                         that allow for different workouts but also for different levels. The class teachers are very
                         informative but keep it light hearted and fun - <strong>Maisie / 93</strong></p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 main">
 
                     <p> I have been working with Hazel as my personal trainer for a year now and the results are
                         amazing. She is very patient and listens to what I want to improve on but also works me hard to
@@ -166,7 +169,7 @@
     </section>
 
     <footer class="container-fluid">
-        <div class="row">
+        <div id="footer-info" class="row">
             <div class="col-sm-4 times">
                 <h5>Opening Times:</h5>
                 <p>Mon - Fri: 6am to 11pm</p>
@@ -176,7 +179,7 @@
                 <h5>Contact Us:</h5>
                 <h6>Address:</h6>
                 <p>3 Circle Avenue, Cowdenbeath, Fife, Scotland, KY4 93C</p>
-                <p><span><i class="far fa-envelope"></i></span> 3CirclesGym@hotmail.com</p>
+                <p><span><i class="far fa-envelope"></i></span> train@3CirclesGym.com</p>
                 <p><span><i class="fas fa-phone"></i></span> 01383 513333</p>
             </div>
             <div class="col-sm-4 social">
@@ -220,7 +223,8 @@
                             <label for="membership">Membership Type</label>
                             <select id="membership" class="form-control">
                                 <option selected>Standard</option>
-                                <option>Student/Concession/NHS Worker</option>
+                                <option>Student</option>
+                                <option>Concession/NHS Worker</option>
                                 <option>Corporate</option>
                             </select>
                         </div>

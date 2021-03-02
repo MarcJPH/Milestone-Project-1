@@ -27,7 +27,7 @@
                         href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
                 <li class="nav-item"><a class="nav-link" href="whatweoffer.html">What We Offer</a></li>
-                <li class="nav-item d-block d-sm-none"><a class="nav-link" href="join.html">Sign In</a></li>
+                <li class="nav-item d-block d-sm-none"><a class="nav-link" href="join.html" data-toggle="modal" data-target="#signinmodal">Sign In</a></li>
             </ul>
             <div class="d-none d-md-block signin">
                 <a data-toggle="modal" data-target="#signinmodal">Sign In</a>
@@ -57,12 +57,12 @@
                     <h2>Our great classes</h2>
                     <p>We have the a great selection of the latest in innovative training (Less Mills, TRX Suspension
                         Training and more) and traditional classes like Yoga, Spinning and HIIT. Classes to suit all
-                        needs.</p>
+                        needs and levels.</p>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 main">
                     <h2>Personal Trainers</h2>
                     <p>At The 3 Circles Gym we have highly qualified and engaging personal training team, on hand to
-                        guide and deliver you through your own custom training plans. Our passionate and supportive will
+                        guide and deliver you through your own custom training plans. Our passionate and supportive trainers will
                         challenge and motivate you to push you to your goals.</p>
                 </div>
             </div>
@@ -70,21 +70,21 @@
     </section>
 
     <section class="container-fluid">
-    <div class="circles">
+    <div class="circles d-none d-sm-block">
         <div class="row media">
 
-            <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                <img src="assets/images/ourgym.jpg" class="rounded-circle" height="100" width="100">
+            <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block ">
+                <img src="assets/images/ourgym.jpg" class="rounded-circle" height="100" width="100" alt="Picture of the main gym floor showing exercise machines">
             </div>
 
 
             <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                <img src="assets/images/feelgreat.jpg" class="rounded-circle" height="100" width="100">
+                <img src="assets/images/feelgreat.jpg" class="rounded-circle" height="100" width="100" alt="Picture showing 2 people enjoying an exercise class">
             </div>
 
 
             <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                <img src="assets/images/positive.jpg" class="rounded-circle" height="100" width="100">
+                <img src="assets/images/positive.jpg" class="rounded-circle" height="100" width="100" alt="picture of a yoga class">
             </div>
 
         </div>
@@ -105,18 +105,17 @@
                 <div class="col-12 col-sm-6 col-lg-4 main">
                     <h2>Work Out and Get Fit</h2>
                     <p>Here at the 3 Circles Gym we have a variety of different equipement and classes for you to use
-                        and to meet your fitness goals.</p>
+                        and to meet your fitness goals. From beginner to advanced classes and workouts, we have you covered.</p>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 main">
                     <h2>Feel Great</h2>
                     <p>Our aim is to improve the fitness of our members no matter their background, age or
                         ability. The
-                        benefits of regular fitness are ......</p>
+                        benefits of regular fitness has been shown to have many health benefits, both physically and mentally.</p>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 main">
                     <h2>Positive Mindset</h2>
-                    <p>With regular exercise and our support network at the 3 Circles Gym, a positive mind and
-                        attitude etc</p>
+                    <p>With regular exercise and our support network at the 3 Circles Gym providing expert skills to help you stress less and stay motivated. We will be here to guide you to where you want to go.</p>
                 </div>
             </div>
         </div>
@@ -125,15 +124,15 @@
     <footer class="container-fluid">
         <div id="footer-info" class="row">
             <div class="col-sm-4 times">
-                <h5>Opening Times:</h5>
+                <h6>Opening Times:</h6>
                 <p>Mon - Fri: 6am to 11pm</p>
                 <p>Sat - Sun: 8am to 10pm</p>
             </div>
             <div class="col-sm-4 contact">
-                <h5>Contact Us:</h5>
+                <h6>Contact Us:</h6>
                 <h6>Address:</h6>
                 <p>3 Circle Avenue, Cowdenbeath, Fife, Scotland, KY4 93C</p>
-                <p><span><i class="far fa-envelope"></i></span> 3CirclesGym@hotmail.com</p>
+                <p><span><i class="far fa-envelope"></i></span> train@3CirclesGym.com</p>
                 <p><span><i class="fas fa-phone"></i></span> 01383 513333</p>
             </div>
             <div class="col-sm-4 social">
@@ -177,7 +176,8 @@
                             <label for="membership">Membership Type</label>
                             <select id="membership" class="form-control">
                                 <option selected>Standard</option>
-                                <option>Student/Concession/NHS Worker</option>
+                                <option>Student</option>
+                                <option>Concession/NHS Worker</option>
                                 <option>Corporate</option>
                             </select>
                         </div>

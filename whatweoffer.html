@@ -28,7 +28,8 @@
                 <li class="nav-item"><a class="nav-link" aria-current="3 Circles Gym Classes Page"
                         href="classes.html">Classes</a></li>
                 <li class="nav-item active"><a class="nav-link" href="whatweoffer.html">What We Offer</a></li>
-                <li class="nav-item d-block d-sm-none"><a class="nav-link" href="join.html">Sign In</a></li>
+                <li class="nav-item d-block d-sm-none"><a class="nav-link" href="join.html" data-toggle="modal"
+                        data-target="#signinmodal">Sign In</a></li>
             </ul>
             <div class="d-none d-md-block signin">
                 <a data-toggle="modal" data-target="#signinmodal">Sign In</a>
@@ -76,6 +77,11 @@
                             <td>£7</td>
                             <td><i class="fas fa-check"></i></td>
                         </tr>
+                        <tr>
+                            <th scope="row">Corporate</th>
+                            <td>£9</td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
                     </tbody>
                 </table>
                 <div>
@@ -84,8 +90,11 @@
                             <img src="assets/images/equipment.jpg" class="card-img-top" alt="Row of dumbbells">
                             <div class="card-body">
                                 <h5 class="card-title">Equipment & Classes</h5>
-                                <p class="card-text">With your membership you will have access to state of the art equipment including treadmills, smart connect bikes and plate-loaded resistance machines. We have the best, up to date and varied classes to choose from. All available in the gym itself
-                        or online that you can do from home.</p>
+                                <p class="card-text">With your membership you will have access to state of the art
+                                    equipment including treadmills, smart connect bikes and plate-loaded resistance
+                                    machines. We have the best, up to date and varied classes to choose from. All
+                                    available in the gym itself
+                                    or online that you can do from home.</p>
 
                             </div>
                         </div>
@@ -94,7 +103,10 @@
                                 alt="Trainer helping client with pushup">
                             <div class="card-body">
                                 <h5 class="card-title">Personal Trainers</h5>
-                                <p class="card-text">Our expert Personal Trainers are available for you to support and help you reach your fitness goals. Every member has a complimentary introduction session with one of our trainers to discuss how they can help you achieve success on your fitness journey.</p>
+                                <p class="card-text">Our expert Personal Trainers are available for you to support and
+                                    help you reach your fitness goals. Every member has a complimentary introduction
+                                    session with one of our trainers to discuss how they can help you achieve success on
+                                    your fitness journey.</p>
 
                             </div>
                         </div>
@@ -102,44 +114,45 @@
                             <img src="assets/images/lockers.jpg" class="card-img-top" alt="Gym locker room">
                             <div class="card-body">
                                 <h5 class="card-title">Facilities</h5>
-                                <p class="card-text">Changing rooms and hot showers await you completing your workout to allow you to get ready for the rest of your day.</p>
+                                <p class="card-text">Changing rooms and hot showers await you completing your workout to
+                                    allow you to get ready for the rest of your day.</p>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-            <ul class="list-inline icon">
-                <li class="list-inline-item"><i class="fas fa-parking"></i></li>
-                <li class="list-inline-item"><i class="fas fa-wifi"></i></li>
-                <li class="list-inline-item"><i class="fas fa-shower"></i></li>
-                <li class="list-inline-item"><i class="fab fa-accessible-icon"></i></li>
-            </ul>
-        </div>
+                <div class="iconlist">
+                    <ul class="list-inline icon">
+                        <li class="list-inline-item"><i class="fas fa-parking"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-wifi"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-shower"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-accessible-icon"></i></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
 
 
-    <div class="d-flex justify-content-center"><button class="btn btn-light btn-set btn-green" data-toggle="modal"
-            data-target="#joinnowModal">Join Now</button></div>
+    <div class="join-now d-flex justify-content-center"><button class="btn btn-light btn-set btn-green"
+            data-toggle="modal" data-target="#joinnowModal">Join Now</button></div>
 
     <section class="container-fluid">
-        <div class="circles">
+        <div class="circles d-none d-sm-block">
             <div class="row media">
                 <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                    <img src="assets/images/motivation.jpg" class="rounded-circle" height="100" width="100">
+                    <img src="assets/images/motivation.jpg" class="rounded-circle" height="100" width="100" alt="Picture of woman lifting weights">
                 </div>
 
 
                 <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                    <img src="assets/images/happyexercise.jpg" class="rounded-circle" height="100" width="100">
+                    <img src="assets/images/happyexercise.jpg" class="rounded-circle" height="100" width="100" alt="Picture of people on exercise bikes">
                 </div>
 
 
                 <div class="col-12 col-sm-6 col-lg-4 d-none d-sm-block pics">
-                    <img src="assets/images/motivation2.jpg" class="rounded-circle" height="100" width="100">
+                    <img src="assets/images/motivation2.jpg" class="rounded-circle" height="100" width="100" alt="Picture of man pushing weights">
                 </div>
             </div>
 
@@ -147,24 +160,24 @@
     </section>
 
 
-    <section>
+    <section class="d-none d-sm-block">
         <div class="join-now d-flex justify-content-center">
             <button class="btn btn-light btn-set btn-green" data-toggle="modal" data-target="#joinnowModal">Join
                 Now</button>
         </div>
     </section>
 
-    <section class="container-fluid quotesection">
+    <section class="container-fluid quotessection">
         <div class="quotes">
             <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 main">
                     <p>The mind is the limit. As long as the mind can envision the fact that you can do something, you
                         can do it, as long as you really believe 100 percent - Arnold Schwarzenegger</p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 main">
                     <p>It is health that is real wealth and not pieces of gold and silver - Mahatma Gandhi</p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 main">
                     <p> Success isn't overnight. It's when every day you get a little better than the day before. It all
                         adds up - Dwayne 'The Rock' Johnson.</p>
                 </div>
@@ -187,7 +200,7 @@
     </section>
 
     <footer class="container-fluid">
-        <div class="row">
+        <div id="footer-info" class="row">
             <div class="col-sm-4 times">
                 <h5>Opening Times:</h5>
                 <p>Mon - Fri: 6am to 11pm</p>
@@ -197,19 +210,21 @@
                 <h5>Contact Us:</h5>
                 <h6>Address:</h6>
                 <p>3 Circle Avenue, Cowdenbeath, Fife, Scotland, KY4 93C</p>
-                <p><span><i class="far fa-envelope"></i></span> 3CirclesGym@hotmail.com</p>
+                <p><span><i class="far fa-envelope"></i></span> train@3CirclesGym.com</p>
                 <p><span><i class="fas fa-phone"></i></span> 01383 513333</p>
             </div>
             <div class="col-sm-4 social">
                 <ul class="list-inline social-networks">
                     <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"
-                            class="sociallink"><i class="fab fa-facebook"></i></a><span class="sr-only">Facebook</span></li>
+                            class="sociallink"><i class="fab fa-facebook"></i></a><span class="sr-only">Facebook</span>
+                    </li>
                     <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank" class="sociallink"><i
                                 class="fab fa-twitter-square"></i></a><span class="sr-only">Twitter</span></li>
                     <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank" class="sociallink"><i
                                 class="fab fa-youtube"></i></a><span class="sr-only">YouTube</span></li>
                     <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"
-                            class="sociallink"><i class="fab fa-instagram"></i></a><span class="sr-only">Instagram</span></li>
+                            class="sociallink"><i
+                                class="fab fa-instagram"></i></a><span class="sr-only">Instagram</span></li>
                 </ul>
             </div>
         </div>
@@ -241,7 +256,8 @@
                             <label for="membership">Membership Type</label>
                             <select id="membership" class="form-control">
                                 <option selected>Standard</option>
-                                <option>Student/Concession/NHS Worker</option>
+                                <option>Student</option>
+                                <option>Concession/NHS Worker</option>
                                 <option>Corporate</option>
                             </select>
                         </div>
