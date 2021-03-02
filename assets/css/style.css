@@ -181,6 +181,14 @@ body {
     padding: 0%
 }
 
+.card-body h5 {
+    font-weight: bold;
+}
+
+.card-body h5, p {
+    text-align: center;
+}
+
 /*----------------Navbar----------*/
 
 
@@ -271,6 +279,11 @@ body {
     width: 100%;
 }
 
+.card-img-top {
+    object-fit: cover;
+    height: 239px;
+}
+
 
 
 /*----------------Tables----------*/
@@ -310,11 +323,19 @@ border: none;
 /*----------------Icons----------*/
 
 
-.iconitem {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
+
+.icon li{
+    padding: 44px 0;
+    margin-left: 60px;
+    margin-right: 60px;
 }
+
+.icon i {
+    font-size: 160%;
+    
+}
+
+
 
 
 
@@ -389,5 +410,12 @@ footer h4 {
     .calloutclasses,
     .calloutoffer {
         font-size: 20px;
+    }
+}
+
+@media(max-width: 540px) {
+    .icon li {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
