@@ -61,6 +61,7 @@ Features Left to implement:
 
 - How many users are in the gym currently, which allows users to know how busy the gym is so they can decide if they want to go now or potentially later.
 - A menu that provides detail on each class that is available in the gym.
+- Use an Image CDN or other type of image optimisation tool to allow for smaller images to be used for mobile devices. This will improve performance on these types of devices.
 
 
 
@@ -88,20 +89,63 @@ The following testing was performed to test functionality, browser compatibility
 
 #### Functionality
 
+Test | Action | Expected Outcome | Test Outcome |
+---- | ------ | ---------------- | ------------ |
+Menu links on top navbar | Select the links on each of the 3 main pages | When link was selected, the site would move to that page | PASS
+Sign In link | Select the Sign In link on top menu | The Sign In form would appear and allow access to enter credentials | PASS
+Company logo/name is link to index.html page | Select the 3 Circles Gym name on top menu | No matter what page user was on, it would take them to the Index/home page | PASS
+Join Now buttons | Select the Join Now buttons on each page | The form would appear and allow access to enter credentials to sign up to the gym | PASS
+Social Media links | Select each of the social media icons | That a new tab would open with the selected social media home page showing | PASS
+Sign In Form | After selecting the Sign In link, enter email address and password | Email address and password entered and form submitted with no errors | PASS
+Join Now Form | After selecting the Join Now button, enter credentials to sign up to the gym | All fields could be completed and selected and form submitted with no errors | PASS
+Form Validation - Sign In | Enter incorrect values in form | The form would notify that incorrect values were entered and form cannot be submitted | PASS
+Form Validation - Join Now | Enter incorrect values in form | The form would notify that incorrect values were entered and form cannot be submitted | PASS
+App store links | Select each app store link | The select app store will open in a new tab | PASS
+Hovering over links and buttons | Hover over links and buttons | When hovering over these elements, they should change colour or change visually | PASS
+Menu collapses for mobile devices | Review site on a mobile device and view menu | The top menu should collapse into a clickable drop down menu | PASS
+
+
+
 
 
 #### Browser Compatibility
 
+The website has been tested on the following browsers:
+ - Chrome (version 88.0.4324.190)
+ - Edge (version 88.0.705.81)
+ - Firefox (version 86)
+
+The website has been tested on the following mobile devices:
+ - Iphone 6s Safari (IOS 14.2)
+ - Galaxy S5
+ - Ipad Pro
+ - Ipad (IOS 10.3.3)
+
 
 #### Responsiveness
 
+The website is working well across different screen sizes. The 3 circle images that are presented across each page drop off on mobile devices as expected. All images across the website work well for large and small screens. The main text in the callout sections on each page reduce in size for mobile devices. 
 
 #### User Stories Test
 
-bug - sign in form not appearing on mobile devices. - Added data-toggle="modal" data-target="#signinmodal" into list item for sign in that is in the collapese menu for mobile devices.
-    - student to be added as seperate drop down in join form as different price to NHS/Concessions & Corporate membership to be added to membership table.
-    - 3 circles merged
-    - Drop down menu didn't work - missed javascript script...
+
+
+
+#### Defects Found during testing:
+
+1. Menu collapsed into drop down menu however when selected no menu appeared.
+ - This was due to the javascript from Bootstrap missing from the html pages. This was added and resolved the issue.
+
+2. Sign In form was not appearing on mobile devices.
+ - This was due to the data toggle and data target code not being included in the list item for the sign in when it was in the drop down menu. data-toggle="modal" data-target="#signinmodal" were added.
+
+3. The student option was included with concessions/NHS workers in the Sign Up form incorrectly as it had a different membership price to the other two.
+ - A new option for Student was added to the Join Now form.
+
+4. The Corporate membership was available to be selected in the Join Now form but did not have a price on the Membership table in the What We Offer page.
+ - Corporate Membership added to the table in the whatweoffer.html page.
+    
+    
 
 
 ### Deployment
