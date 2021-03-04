@@ -176,11 +176,43 @@ The costs of each membership type available are clearly visible for visitors whi
 
 ### Deployment
 
+This project was developed using GitPod where it is hosted using GitHub pages.
+
+The website was deployed to GitHub pages via the below procedure:
+
+1. Log into GitHub.
+2. Locate and select the repository named MarcJPH/Milestone-Project-1.
+3. Near the top of the page select the Settings menu option.
+4. Scroll down the page until you come to the The GitHub Pages section, which is found near the bottom of the page.
+5. Under Source, change the drop-down menu where None is labelled to Master Branch.
+6. This deploys the website and creates a link for the website in the GitHub pages section.
+
+
+The website will automatically update when commits and push's to the master branch are performed. The steps that are required for this to happen are:
+
+1. Within GitPod, if the terminal window is not open at the bottom of the page, select Terminal in the top menu and select New Terminal.
+2. Actions and instructions can be typed within the terminal at the bottom of the page, where it states gitpod /workspace/"nameofproject" $.
+3. To commit changes or additions to the code made within GitPod, type 'git commit -m "add comment in here of what has beeen changed."' then Enter.
+4. To push the changes so they are sent to GitHub Pages automatically, in the next line in the terminal type 'git push'. The terminal will run and push the code. If any errors or issues have arised, they will be stated in the terminal message after your command.
+
+
+#### Running the Project Locally
+
+To run the project locally you will have to clone it first. Follow the below steps to perform the clone:
+
+1. Within GitHub, locate and select the repository named MarcJPH/Milestone-Project-1.
+2. When within the main page of the repository, select the Code button which can be found above the list of files section.
+3. Select the option of "Clone with HTTPS" and then select the copy button which is the clipboard icon.
+4. Go to Workspaces within GitPod and select the location where you want to place the cloned directory.
+5. In the terminal window, type "git clone" and then paste the url that was copied from the directory within GitHub. Then press enter.
+6. Upon pressing enter, the local clone of the directory will be made.
+
+
 ### Credits
 
 #### Media
 
-Most of the photos displayed on the project were sourced from the website https://unsplash.com/ :
+Most of the photos displayed on the project were sourced from the website [Unsplash](https://unsplash.com/) :
  - gymhero.png Photo taken from https://www.fitnessfirst.com.my/-/media/project/evolution-wellness/fitness-first/south-east-asia/malaysia/classes/fgt-hiit/fgt-hiit_fb-sharing.png
  - ourgym.jpg Photo by Risen Wang on Unsplash
  - feelgreat.jpg Photo taken from https://media1.popsugar-assets.com/files/thumbor/5EKQofgcc8xAuFy8ca5KcEECg0A/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/02/06/052/n/1922729/53927cc45c5b78829321d3.24361415_/i/Best-Dance-Workout-Videos.jpg
