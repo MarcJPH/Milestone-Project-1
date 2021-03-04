@@ -106,7 +106,6 @@ Menu collapses for mobile devices | Review site on a mobile device and view menu
 
 
 
-
 #### Browser Compatibility
 
 The website has been tested on the following browsers:
@@ -116,8 +115,7 @@ The website has been tested on the following browsers:
 
 The website has been tested on the following mobile devices:
  - Iphone 6s Safari (IOS 14.2)
- - Galaxy S5
- - Ipad Pro
+ - Huawei P Smart 2020
  - Ipad (IOS 10.3.3)
 
 
@@ -138,12 +136,26 @@ Both the desktop and mobile tests reported a good score for accessibility and be
 
 #### Responsiveness
 
-The website is working well across different screen sizes. The 3 circle images that are presented across each page drop off on mobile devices as expected. All images across the website work well for large and small screens. The main text in the callout sections on each page reduce in size for mobile devices. 
+The website is working well across different screen sizes. The 3 circle images that are presented across each page drop off on mobile devices as expected. All images across the website work well for large and small screens. The main text in the callout sections on each page reduce in size for mobile devices.
+
+
 
 #### User Stories Test
 
+The website was tested against the user stories for the three stakeholders stated above with the following results.
+
+#### Gym Owner:
+The site defines what kind of gym experiance users would receive at the gym while also making it straight forward to sign up and become a member. Current members also have visibility of what is on offer and why they should retain their membership.
 
 
+#### Gym Member:
+
+When and what type of gym class is clearly identifiable while an introduction for personal training is available on the site and it directs them to the gyms app to book the sessions.  The benefits of having an active lifestyle at the gym is noted through each page to highlight to the members why they should retain their membership.
+
+
+#### Prospective Member:
+
+The costs of each membership type available are clearly visible for visitors while the equipment and classes information is also laid out. The facilities are also mentioned to make visitors aware of what is available.
 
 #### Defects Found during testing:
 
