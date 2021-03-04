@@ -3,7 +3,7 @@
 #### The project is to deliver a new and engaging front end site for the 3 Circles Gym that allows current and potential members to view details of the gym facilities, what the gym can offer to them and the positives of why they should join as a memeber.
 #### The site will encompass all that is on offer for existing members and why they should continue with their membership but also attract and encourage non members who are visiting the site to sign up. This will be done via providing clear information on what members can use at the gym through text and visuals but also from the benefits of an active lifestyle can promote with motivational content. The site will be simple to navigate but provide the opportunity on each page to sign up to encourage the users to do so.
 
-![Image of Mock Up](mockup.png)
+[Mock Up](wireframes/mockup.png)
 
 ### **User Experience**
 
@@ -35,14 +35,13 @@ Prospective Member:
 
 #### Wireframes
 
-[Index Page] (https://github.com/MarcJPH/Milestone-Project-1/blob/master/Index.png)
-https://github.com/MarcJPH/Milestone-Project-1/blob/master/classes.png
-https://github.com/MarcJPH/Milestone-Project-1/blob/master/whatweoffer.png
-https://github.com/MarcJPH/Milestone-Project-1/blob/master/signupform.png
+ - [Index Page](wireframes/index.png)
+ - [Classes](wireframes/classes.png)
+ - [What We Offer](wireframes/whatweoffer.png)
+ - [Sign Up Form](wireframes/signupform.png)
 
 
 
-Add wireframes! Add into github and provide link.
 
 #### Features
 
@@ -70,15 +69,15 @@ Features Left to implement:
 
 * HTML5
 * CSS
-* Bootstrap 4.6 (https://getbootstrap.com/docs/4.6/getting-started/download/)
+* [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/download/)
     * The project uses Bootstrap 4.6 to aid the structure and the responsiveness of the site. 
-* Fontawesome (https://fontawesome.com/)
+* [Fontawesome](https://fontawesome.com/)
     * Fontawesome is used to provide the icons that are displayed throughout.
-* Google API (https://console.developers.google.com/getting-started)
+* [Google API](https://console.developers.google.com/getting-started)
     * The API is used to interface to Google Font (https://fonts.google.com/) which is used throughout the site and also to embed a map on one of the pages.
-* Jquery (https://jquery.com/)
+* [Jquery](https://jquery.com/)
     * Jquery is used for the Javascript elements used within the project.
-* Popper.js (https://popper.js.org/)
+* [Popper.js](https://popper.js.org/)
     * Popper.js was used to reference Javascript.
 
 
@@ -120,6 +119,21 @@ The website has been tested on the following mobile devices:
  - Galaxy S5
  - Ipad Pro
  - Ipad (IOS 10.3.3)
+
+
+#### Performance
+
+Performance of the website was tested using the Lighthouse function as part of Google developer tools. The first run on the desktop reported performance could have been quicker. 3 images were compressed to reduce their size which increased the performance by 11.
+
+ - [Lighthouse Test 1](testingoutput/performancetest1.png)
+ - [Lighthouse Test 2](testingoutput/performancetest2.png)
+
+It was also run for mobile which resulted in a performance score of 77. This needs to be addressed as part of the next release to ensure a good user experiance when accessing the site on mobile devices.
+
+ - [Lighthouse Test Mobile](testingoutput/performancetestmobile.png)
+
+Both the desktop and mobile tests reported a good score for accessibility and best practices however both need to improve their score for SEO. Again this would be addressed in the next release.
+
 
 
 #### Responsiveness
