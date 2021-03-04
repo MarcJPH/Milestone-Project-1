@@ -1,6 +1,6 @@
 # User Centric Front End Development Project
 
-#### The project is to deliver a new and engaging front end site for the 3 Circles Gym that allows current and potential members to view details of the gym facilities, what the gym can offer to them and the positives of why they should join as a memeber.
+#### The project is to deliver a new and engaging front end site for the 3 Circles Gym that allows current and potential members to view details of the gym facilities, what the gym can offer to them and the positives of why they should join as a member.
 #### The site will encompass all that is on offer for existing members and why they should continue with their membership but also attract and encourage non members who are visiting the site to sign up. This will be done via providing clear information on what members can use at the gym through text and visuals but also from the benefits of an active lifestyle can promote with motivational content. The site will be simple to navigate but provide the opportunity on each page to sign up to encourage the users to do so.
 
 [Mock Up](wireframes/mockup.png)
@@ -48,18 +48,18 @@ Prospective Member:
 Existing Features:
 
 - The Home Page contains a hero image to immediately provides visitors to the site of a visual of the gym. Thetre is also a Call to Action button within the image to give users the ability to sign up as a member.
-- The Join Now button, located twice on each page for desktop users and once for all other devices, allows users to sign up to be a member, by filling out a joiners form that appears on page once the button is selected.
+- The Join Now button, located twice on each page except for the What We Offer page where it has the one Join Now button for mobile devices for better UX, allows users to sign up to be a member, by filling out a joiners form that appears on page once the button is selected.
 - A menu option in the top right of the screen allows users to navigate through the site to view the different information located within the site.
 - There are 3 circular pictures within each page that promotes the gym or the gym experience but also links to the name of the gym.
 - A timetable is located on the Classes page to provide users with what classes are available and when. The page also contains testimonials from current members to help give prospective members an idea of the benefits of joining.
-- The What We Offer page provides some detail on members can use and enjoy from the gym while also including a map showing the location of the gym. There are 3 motivational quotes within the page to again, encourage users to start or maintain a active lifestyle.
-- The NAV bar contains the 3 Circles Gym logo which is also a link to the home page. Also within the NAV bar are links to the other pages along with a Sign In link for existing members.
-- The footer is consistent on each page showing when the gym is open and the address. It also has a contact email address and the links to the social networks for the gym.
+- The What We Offer page provides some detail on members can use and enjoy from the gym while also including a map showing the location of the gym. There are 3 motivational quotes within the page to again, encourage users to start or maintain an active lifestyle.
+- The NAV bar contains the 3 Circles Gym brand name which is also a link to the home page. Also within the NAV bar is the Sign In link for existing members.
+- The footer is consistent on each page showing when the gym is open and the address. It also has a contact email address, phone number and the links to the social networks for the gym.
 
 Features Left to implement:
 
 - How many users are in the gym currently, which allows users to know how busy the gym is so they can decide if they want to go now or potentially later.
-- A menu that provides detail on each class that is available in the gym.
+- A menu that provides the detail on each class that is available in the gym.
 - Use an Image CDN or other type of image optimisation tool to allow for smaller images to be used for mobile devices. This will improve performance on these types of devices.
 
 
@@ -208,6 +208,7 @@ To run the project locally you will have to clone it first. Follow the below ste
 6. Upon pressing enter, the local clone of the directory will be made.
 
 
+
 ### Credits
 
 #### Media
@@ -230,7 +231,7 @@ Most of the photos displayed on the project were sourced from the website [Unspl
 
 #### Code
 
- - Code for customising the borders within a Bootstrap table was taken from Stackoverflow - https://stackoverflow.com/questions/45746103/boostrap-css-change-table-border-colors
+ - Code for customising the borders within a Bootstrap table was taken from [Stackoverflow](https://stackoverflow.com/questions/45746103/boostrap-css-change-table-border-colors)
  
 
 ##### Disclaimer
