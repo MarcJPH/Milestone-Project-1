@@ -214,7 +214,6 @@ body {
     color: #00DD00;
 }
 
-
 /*----------------Navbar----------*/
 
 
@@ -222,23 +221,26 @@ body {
     font-family: "Lexend Maga", sans-serif;
     color: #00DD00;
     padding-top: 15px;
-    padding-left: 90px;
+    margin-left: 25px;
     text-decoration: none;
-}
-
-
-.logo h3:hover,
-
-.logo h3:active,
-
-.logo h3:focus,
-
-.logo h3:active:focus {
-    color: white;
 }
 
 .navbar .logo:hover {
     text-decoration: none;
+}
+
+a:hover,
+
+a:active,
+
+a:focus,
+
+a:active:focus{
+    color: white;
+}
+
+a.logo :hover {
+    color: white;
 }
 
 .navbar .navbar-nav a {
@@ -258,8 +260,6 @@ body {
 .navbar-dark .navbar-nav .nav-link:active:focus {
     color: #00DD00;
 }
-
-
 
 .login {
     color: white;
