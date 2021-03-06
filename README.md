@@ -1,4 +1,7 @@
-# User Centric Front End Development Project
+# 3 Circles Gym 
+#### A link to the site can be found [here.](https://marcjph.github.io/Milestone-Project-1/)
+
+#### User Centric Front End Development Project - Code Institute
 
 #### The project is to deliver a new and engaging front end site for the 3 Circles Gym that allows current and potential members to view details of the gym facilities, what the gym can offer to them and the positives of why they should join as a member.
 #### The site will encompass all that is on offer for existing members and why they should continue with their membership but also attract and encourage non members who are visiting the site to sign up. This will be done via providing clear information on what members can use at the gym through text and visuals but also from the benefits of an active lifestyle can promote with motivational content. The site will be simple to navigate but provide the opportunity on each page to sign up to encourage the users to do so.
@@ -116,6 +119,7 @@ The website has been tested on the following browsers:
 The website has been tested on the following mobile devices:
  - Iphone 6s Safari (IOS 14.2)
  - Huawei P Smart 2020
+ - Samsung Galaxy A20
  - Ipad (IOS 10.3.3)
 
 
@@ -214,13 +218,13 @@ To run the project locally you will have to clone it first. Follow the below ste
 #### Media
 
 Most of the photos displayed on the project were sourced from the website [Unsplash](https://unsplash.com/) :
- - gymhero.png Photo taken from https://www.fitnessfirst.com.my/-/media/project/evolution-wellness/fitness-first/south-east-asia/malaysia/classes/fgt-hiit/fgt-hiit_fb-sharing.png
+ - gymhero.png Photo taken from [Fitness First.com](https://www.fitnessfirst.com.my/-/media/project/evolution-wellness/fitness-first/south-east-asia/malaysia/classes/fgt-hiit/fgt-hiit_fb-sharing.png)
  - ourgym.jpg Photo by Risen Wang on Unsplash
- - feelgreat.jpg Photo taken from https://media1.popsugar-assets.com/files/thumbor/5EKQofgcc8xAuFy8ca5KcEECg0A/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/02/06/052/n/1922729/53927cc45c5b78829321d3.24361415_/i/Best-Dance-Workout-Videos.jpg
+ - feelgreat.jpg Photo taken from [Popsugar-assets.com](https://media1.popsugar-assets.com/files/thumbor/5EKQofgcc8xAuFy8ca5KcEECg0A/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/02/06/052/n/1922729/53927cc45c5b78829321d3.24361415_/i/Best-Dance-Workout-Videos.jpg)
  - positive.jpg Photo by bruce mars on Unsplash
  - gymclass1.jpg Photo by Geert Pieters on Unsplash
  - gymclass2.jpg Photo by Dylan Gillis on Unsplash
- - gymclass3.jpg Photo taken from https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Fitness/580x350/Secrets+of+People+Who+Love+to+Work+Out/Secret+8.jpg
+ - gymclass3.jpg Photo taken from [Content Active.com](https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Fitness/580x350/Secrets+of+People+Who+Love+to+Work+Out/Secret+8.jpg)
  - motivation.jpg Photo by John Arano on Unsplash
  - motivation2.jpg Photo by Jesper Aggergaard on Unsplash
  - happyexercise.jpg Photo by Wavebreakmedia Ltd on Getty Images
