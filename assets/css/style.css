@@ -239,6 +239,7 @@ footer h4 {
 
 /*----------------Tables----------*/
 
+/*---Code below to style table taken from Stackoverflow.com - Bootstrap CSS - Change Table Border Colours---*/
 .table-bordered {
     border: 0.125rem solid #343a40;
 }
